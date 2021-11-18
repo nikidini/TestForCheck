@@ -3,3 +3,38 @@ fun main (args: Array<String>){
     for (x in 2..20 )
         println(x)
 }
+
+fun main (args: Array<String>){
+    val x:Int
+    x = 2
+    x < 100
+    for (x in 2..100 step 5 )
+        println(x)
+}
+
+fun main (args: Array<String>){
+    var x = 15
+    while (x > 0 ){
+        println(x)
+        x --
+}}
+
+fun main (args: Array<String>){
+    var x = 5
+when (x){
+    null -> println("значение равна null")
+    25 -> println("значение равна 25")
+    10 -> println("значение равна 10")
+    5 -> println("значение равн0 5")
+}
+}
+
+fun main (args: Array<String>){
+    var x = 5
+    var nim = 10
+if(x < 20)
+nim = 10
+else nim = 30
+    println ("$nim")
+}
+    
