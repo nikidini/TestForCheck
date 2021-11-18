@@ -1,0 +1,5 @@
+fun main (args: Array<String>){
+    val x:Int
+    for (x in 2..20 )
+        println(x)
+}
